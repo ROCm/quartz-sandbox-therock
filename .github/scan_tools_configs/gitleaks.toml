@@ -49,6 +49,10 @@ description = "Test fixtures using well-known dummy variable names"
 # The "tell" here is the variable name on the same line, not the value
 # (the value is a random-looking string by design). Match against the
 # full rule match (variable + value) so we anchor on the identifier.
+condition = "AND"
+paths = [
+  '''(^|/)tests(/|/)''',
+]
 regexTarget = "match"
 regexes = [
   '''(?i)\bINVALID_TOKEN\s*=''',
