@@ -1,0 +1,10 @@
+#
+# Learn about CODEOWNERS file format:
+#   https://help.github.com/en/articles/about-code-owners
+#
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+#
+#
+# This file itself
+* @ROCm/quartz-admins
