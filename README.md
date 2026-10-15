@@ -1,4 +1,4 @@
-# quartz-sandbox
+# quartz-sandbox-therock
 
 This is one of the Quartz **sandbox** repos. Together they stub the entire
 functionality of [Quartz](https://github.com/ROCm/Quartz) so development can
